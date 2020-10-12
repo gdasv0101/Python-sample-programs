@@ -14,3 +14,4 @@ elif BMI>30:
     print(n,"is obese by",BMI,"BMI")
 else:
      print(" wrong input")
+#the calculations are done in float
