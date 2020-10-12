@@ -12,3 +12,5 @@ elif 25.0<= BMI <=30.9:
     print(n,"is overweight by",BMI,"BMI")
 elif BMI>30:
     print(n,"is obese by",BMI,"BMI")
+else:
+     print(" wrong input")
