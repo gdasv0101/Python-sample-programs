@@ -1,8 +1,8 @@
 print("BODY MASS INDEX CALCULATOR")
 print(".......................................................................................")
 n=input("Enter your name :  ")#user should input his name
-a = float(input("Enter Body mass (In Kg) :"))#a=weight in kg
-b = float(input("Enter Body height (In m) :"))#b=height in m
+a = float(input("Enter Body mass (In Kg) :"))#a=weight in kilogram
+b = float(input("Enter Body height (In m) :"))#b=height in meter
 BMI=a/(b**2)
 if BMI<18.5:
     print(n,"is Underweight by",BMI,"BMI")
