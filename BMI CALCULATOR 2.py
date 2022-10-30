@@ -1,10 +1,10 @@
 print("BODY MASS INDEX CALCULATOR")
-print(".......................................................................................")
+print("*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*")
 n=input("Enter your name :  ")#user should input his name
 a = float(input("Enter Body mass (In Kg) :"))#a=weight in kilogram
 b = float(input("Enter Body height (In m) :"))#b=height in meter
 BMI=a/(b**2)
-if BMI<18.5:
+if BMI<18.5:#checking the condition is true or not
     print(n,"is Underweight by",BMI,"BMI")
 elif 18.6<= BMI <=24.9:
     print(n,"is Normal by",BMI,"BMI")
