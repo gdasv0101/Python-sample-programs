@@ -1,5 +1,6 @@
 print("BODY MASS INDEX CALCULATOR")
 print(".......................................................................................")
+print('\n Hello, this is a BMI Calculator!')
 n=input("Enter your name :  ")#user should input his name
 a = float(input("Enter Body mass (In Kg) :"))#a=weight in kilogram
 b = float(input("Enter Body height (In m) :"))#b=height in meter
